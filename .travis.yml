@@ -20,5 +20,4 @@ deploy:
     branch: master
   # we also need to set up IAM for travis to access aws services
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+  secret_access_key: $AWS_SECRET_KEY
